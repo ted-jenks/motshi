@@ -1,0 +1,92 @@
+@import url("../../Base.css");
+
+.footerContainer{
+padding-top: 20vh;
+}
+
+.technologies{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20% 0 20%;
+    align-items: center;
+}
+
+.reactLogo{
+    display: block;
+    max-width: 10vw;
+    width: auto;
+    height: 60%;
+}
+
+.solidityLogo{
+    display: block;
+    max-width: 10vw;
+    width: auto;
+    height: auto;
+}
+
+.ethLogo{
+    display: block;
+    max-width: 10vw;
+    width: auto;
+    height: auto;
+}
+
+.blurb {
+    padding: 10vh 0 3vh 0;
+color: var(--primary-text);
+    font-family: var(--font-family);
+}
+
+.blurbTitle {
+    font-size: 1.5vw;
+}
+
+.blurbCont {
+    font-size: 0.75vw;
+}
+
+.link {
+    text-decoration: none;
+    color: var(--contrast);
+    cursor: pointer;
+}
+
+.link:hover {
+    color: var(--primary-text);
+}
+
+
+@media only screen and (max-width: 700px) {
+    .footerContainer{
+        padding-top: 5vh;
+    }
+
+    .technologies{
+        padding: 0 8% 0 8%;
+    }
+
+    .reactLogo{
+        max-width: 20vw;
+    }
+
+    .solidityLogo{
+        max-width: 20vw;
+    }
+
+    .ethLogo{
+        max-width: 20vw;
+    }
+
+    .blurb {
+        padding: 5vh 0 5vh 0;
+    }
+
+    .blurbTitle {
+        font-size: 4vw;
+    }
+
+    .blurbCont {
+        font-size: 2vw;
+    }
+}

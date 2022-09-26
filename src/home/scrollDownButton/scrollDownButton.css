@@ -1,0 +1,29 @@
+@import url("../../Base.css");
+
+.button {
+    width: 10vh;
+    height: 10vh;
+    border-radius: 50rem;
+    cursor: pointer;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.button:hover {
+    transform: translateY(1vh);
+}
+
+.arrow {
+    border: solid;
+    border-width: 0 5px 5px 0;
+    display: inline-block;
+    padding: 2vh;
+    margin: 1.8vh 0 0 0;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.hidden {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(3rem);
+}

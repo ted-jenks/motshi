@@ -1,0 +1,77 @@
+@import url("../../Base.css");
+
+.card {
+    background-image: linear-gradient(70deg, #8E5DF1, #5C2AC0);
+    width: 50vw;
+    max-width: 110vh;
+    aspect-ratio: 1.59;
+    border-radius: max(3vh, 2vw);
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+    display: flex;
+    flex-direction: column;
+}
+
+.card:hover {
+    width: 60vw;
+    max-width: 115vh;
+}
+
+.logoContainer {
+    padding: 3% 0 0 1.5%;
+}
+
+.logo {
+    width: 30%;
+}
+
+.idContentContainer {
+    flex:1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+}
+
+.photoContainer {
+    flex: 0;
+    display: flex;
+    height: 100%;
+    flex-basis: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo {
+    border-radius: 10%;
+    width: 85%;
+    aspect-ratio: 1;
+}
+
+.idText {
+    flex: 0;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--mono-font-family);
+    color: var(--primary-text);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    flex-basis: 50%;
+    padding-bottom: 7%;
+}
+
+.age {
+}
+
+.yearsOld {
+
+}
+
+@media only screen and (max-width: 700px) {
+    .card {
+        width: 90vw;
+    }
+
+    .card:hover {
+        width: 95vw;
+    }
+}

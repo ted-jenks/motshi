@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+
+:root {
+    --primary-dark: #7E4EE0;
+    --primary-medium: #A083DB;
+    --primary-light: #D7E2FF;
+    --contrast: #78FFC6;
+    --primary-text: #FFFFFF;
+    --secondary-text: #FFFFFF;
+    --mono-font-family: 'IBM Plex Mono', sans-serif;
+    --font-family: 'ABeeZee', sans-serif;
+    --transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.monoText {
+    font-family: var(--mono-font-family);
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.44);
+}
