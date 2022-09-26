@@ -1,5 +1,6 @@
 {
   "name": "motshi",
+  "homepage": "https://ted-jenks.github.io/Motshi",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
