@@ -13,7 +13,7 @@ export const Phone = () => {
     const [when, setWhen] = useState(false);
     const [demo, setDemo] = useState(true);
 
-    const handleScroll = (event) => {
+    const handleScroll = () => {
         console.log("scroll", window.scrollY, "o", window.innerHeight)
         if ((window.scrollY + 70) > window.innerHeight && (window.scrollY + 200) < 2 * window.innerHeight) {
             setTimeout(() =>
@@ -60,7 +60,7 @@ export const Demo = (props) => {
                             .callFunction(() => {
                                 console.log('String typed out change!' + width);
                             })
-                        window.addEventListener('scroll', (event) => {
+                        window.addEventListener('scroll', () => {
                             if ((window.scrollY + 70) > window.innerHeight) {
                                 typewriter.start();
                             }
