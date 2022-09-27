@@ -33,8 +33,10 @@ class Home extends Component {
     animStyle = {
         position: "absolute",
         bottom: 0,
-        width: "100%",
+        width: "auto",
         height: "auto",
+        minWidth: "100%",
+        minHeight: "100%",
         overflow: "hidden",
         border: '1px solid red'
     }
