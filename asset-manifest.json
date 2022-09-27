@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Motshi/static/css/main.8a1806fa.css",
+    "main.js": "/Motshi/static/js/main.c8377fcf.js",
+    "static/js/787.71acee04.chunk.js": "/Motshi/static/js/787.71acee04.chunk.js",
+    "static/media/demo.mp4": "/Motshi/static/media/demo.f920c388d48324d8b5b2.mp4",
+    "static/media/White_Both.png": "/Motshi/static/media/White_Both.1d6e7563d4eeaf0e56a5.png",
+    "static/media/PhoneCutout.png": "/Motshi/static/media/PhoneCutout.2adb596b9d725a76c521.png",
+    "static/media/React.png": "/Motshi/static/media/React.e5f2cc4aafdd27e69674.png",
+    "static/media/EthTwo.png": "/Motshi/static/media/EthTwo.1730c58d010ee7c5c3a2.png",
+    "static/media/ExamplePhoto.jpg": "/Motshi/static/media/ExamplePhoto.5ccfc899bd59ac56e7c1.jpg",
+    "index.html": "/Motshi/index.html",
+    "main.8a1806fa.css.map": "/Motshi/static/css/main.8a1806fa.css.map",
+    "main.c8377fcf.js.map": "/Motshi/static/js/main.c8377fcf.js.map",
+    "787.71acee04.chunk.js.map": "/Motshi/static/js/787.71acee04.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8a1806fa.css",
+    "static/js/main.c8377fcf.js"
+  ]
+}
