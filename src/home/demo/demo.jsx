@@ -24,7 +24,6 @@ export const Phone = () => {
         }
 
         if ((window.scrollY) > 5 && (window.scrollY - 50) < 2 * window.innerHeight) {
-
             setDemo(true);
         } else {
             setDemo(false);
@@ -42,7 +41,7 @@ export const Phone = () => {
             <div className={"demoPhoneContainer"}>
                 <div className={"vidContainer"}
                      style={{width: width - (width * 0.06), backgroundColor: demo ? "rgba(0,0,0,0)" : "grey"}}>
-                    {demo && <VideoLooper source={DemoVid} start={0} end={42} width={"100%"} height={"100%"}/>}
+                    <VideoLooper source={DemoVid} autoPlay={demo} start={0} end={42} width={"100%"} height={"100%"}/>
                 </div>
                 <img src={PhoneCutout} ref={ref} alt={"cutout of phone"} className={"phoneCutout"}/>
             </div>
