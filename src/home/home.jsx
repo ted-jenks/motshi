@@ -35,7 +35,6 @@ class Home extends Component {
         bottom: 0,
         width: "100%",
         height: "auto",
-        minHeight: "100%",
         overflow: "hidden",
         border: '1px solid red'
     }
