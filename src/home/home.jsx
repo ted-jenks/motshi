@@ -37,8 +37,8 @@ class Home extends Component {
         height: "auto",
         minWidth: "100%",
         minHeight: "100%",
+        aspectRatio: 9/16,
         overflow: "hidden",
-        border: '1px solid red'
     }
 
     render() {
