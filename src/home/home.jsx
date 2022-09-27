@@ -44,7 +44,7 @@ class Home extends Component {
     render() {
         return (
             <div>
-                <div className={"firstSection"}>
+                <div className={"firstSection"} style={{height: 0.925 * window.innerHeight}}>
                     <div className={"lottieContainer"}>
                     <Lottie
                         options={{
@@ -62,7 +62,7 @@ class Home extends Component {
                     </div>
                 </div>
 
-                <div className={"divider"}/>
+                <div className={"divider"} style={{height: 0.075 * window.innerHeight}}/>
 
                 <Demo scrollTo={2 * this.state.windowSize}/>
 

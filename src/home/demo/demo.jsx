@@ -51,7 +51,7 @@ export const Phone = () => {
 export const Demo = (props) => {
     const [ref, {width}] = useMeasure();
 
-    return (<div className={"demoBackdrop"}>
+    return (<div className={"demoBackdrop"} style={{height: window.innerHeight}}>
         <div className={"demoContent"}>
             <div className={"demoText"} ref={ref}>
                 <Typewriter

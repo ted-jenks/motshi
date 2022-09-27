@@ -6,7 +6,7 @@ import Fade from "react-reveal"
 class Property extends Component {
     render() {
         return (
-            <div className={"propertyContainer"}>
+            <div className={"propertyContainer"} style={{height: window.innerHeight}}>
                 <Fade left={this.props.fadeDirection === 'left'} right={!(this.props.fadeDirection === 'left')}>
                     <div className={"propertyContentContainer"}>
                         <div className={"propertyTitle"}>
