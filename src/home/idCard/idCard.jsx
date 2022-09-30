@@ -20,7 +20,7 @@ export const IdCard = () => {
                 </div>
                 <div className={"idText"} ref={ref} >
                     <div className={"age"} style={{fontSize: width/2}}>
-                        34
+                        28
                     </div>
                     <div style={{fontSize: width / 10}}>
                         Years Old
