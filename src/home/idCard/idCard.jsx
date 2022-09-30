@@ -2,7 +2,7 @@ import React from "react";
 import {useMeasure} from "react-use";
 import "./idCard.css";
 import logo from "../../assets/White_Both.png";
-import image from "../../assets/ExamplePhoto.jpg";
+import image from "../../assets/ExamplePhoto.png";
 import Fade from "react-reveal"
 
 export const IdCard = () => {
@@ -16,7 +16,7 @@ export const IdCard = () => {
             </div>
             <div className={"idContentContainer"}>
                 <div className={"photoContainer"}>
-                <img src={image} className={"photo"} alt={"example photo"}/>
+                <img src={image} className={"photo"} alt={"example"}/>
                 </div>
                 <div className={"idText"} ref={ref} >
                     <div className={"age"} style={{fontSize: width/2}}>
