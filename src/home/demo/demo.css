@@ -54,11 +54,11 @@
 .vidContainer {
     position: absolute;
     aspect-ratio: 193/402;
-    max-height: 94%;
-    max-width:94%;
+    max-height: 100%;
+    max-width: 100%;
     top: 50%;
     left: 50%;
-    transform: translate(-49.8%, -44.4%);
+    transform: translate(-49.8%, -45%);
 }
 
 @media only screen and (max-width: 700px) {
