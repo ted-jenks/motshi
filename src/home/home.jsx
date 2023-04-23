@@ -7,6 +7,7 @@ import Property from "./property/property";
 import Footer from "./footer/footer";
 import animation from "../assets/background_anim.json";
 import Lottie from "lottie-react-web";
+import thesis from "../assets/final_report.pdf"
 
 class Home extends Component {
     state = {
@@ -93,6 +94,8 @@ class Home extends Component {
                             storage,
                             there
                             is no single point of failure making it reachable for users at all times.
+                            <br/><br/>
+                            <a onClick={() => window.open(thesis, "_blank")} className={"link"}>Read the thesis.</a>
                         </Property>
                         <Footer/>
                 </div>
